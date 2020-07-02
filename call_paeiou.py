@@ -28,7 +28,7 @@ def call_paeiou():
 
     import paeiou
 
-    paeiou.direct_function( True, 
+    paeiou.direct_function( False, 
                             True, 
                             0, 
                             0, 
@@ -38,8 +38,8 @@ def call_paeiou():
                             "gen")
 
 def main():
-    shutil.rmtree("gen")
-    os.mkdir("gen")
+    # shutil.rmtree("gen")
+    # os.mkdir("gen")
 
     call_paeiou()
 

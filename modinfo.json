@@ -14,10 +14,10 @@
 	],
 	"scenes": {
 		"shared_build": [
-			"coui://ui/mods/com.pa.daedelus.dozer/shared_build.js"
+			"coui://ui/mods/com.pa.daedalus.dozer/shared_build.js"
 		],
 		"icon_atlas": [
-			"coui://ui/mods/com.pa.daedelus.dozer/icon_atlas.js"
+			"coui://ui/mods/com.pa.daedalus.dozer/icon_atlas.js"
 		]
 	},
 	"context": "server",

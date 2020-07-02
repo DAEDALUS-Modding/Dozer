@@ -1,9 +1,8 @@
 {
-    "self_destruct": true,
     "ammo_source": "time",
     "auto_fire_when_charged": true,
     "start_fully_charged": false,
-    "ammo_capacity": 1,
+    "ammo_capacity": 0.1,
     "ammo_per_shot": 0.1,
     "rate_of_fire": 10,
     "ammo_id": "{crush_ammo.json}",
