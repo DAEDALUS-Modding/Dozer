@@ -7,17 +7,17 @@
     "rate_of_fire": 10,
     "ammo_id": "{crush_ammo.json}",
     "auto_attack": true,
-    "firing_arc_pitch": 360,
-    "firing_arc_yaw": 360,
+    "firing_arc_pitch": 10,
+    "firing_arc_yaw": 10,
     "idle_aim_delay": 0,
     "max_range": 10,
-    "pitch_range": 0,
-    "pitch_rate": 0,
+    "pitch_range": 40,
+    "pitch_rate": 90,
     "target_layers": [
         "WL_LandHorizontal",
         "WL_WaterSurface"
     ],
     "tool_type": "TOOL_Weapon",
-    "yaw_range": 0,
-    "yaw_rate": 0
+    "yaw_range": 10,
+    "yaw_rate": 90
 }
