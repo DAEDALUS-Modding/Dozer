@@ -10,6 +10,7 @@
         "AT_Bot": 1,
         "AT_Structure": 0.05,
         "AT_Vehicle": 0.01,
+        "AT_Hover": 0.01,
         "AT_Commander": 0.01,
         "AT_Naval": 0.01,
         "AT_Air": 0.0,
