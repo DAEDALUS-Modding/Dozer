@@ -36,12 +36,12 @@
         "audio_cue": "/SE/Build_Complete/veh"
       },
       "fired": {
-        "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_muzzle"
+        "effect_spec": "{blank.pfx.json}"
       },
       "died": {
         "audio_cue": "/SE/Death/Veh",
         "effect_spec": "/pa/effects/specs/default_explosion_bot_t2.pfx",
-        "effect_scale": 1.2
+        "effect_scale": 1.5
       }
     },
     "guard_layer": "WL_LandHorizontal",
