@@ -52,8 +52,11 @@
       6.2
     ],
     "model": {
-      "filename": "/pa/units/land/tank_heavy_armor/tank_heavy_armor.papa",
-      "animtree": "/pa/anim/anim_trees/tank_armor_anim_tree.json"
+      "filename": "{model.papa}",
+      "animations": {
+        "idle": "{anim_idle.papa}"
+      },
+      "animtree": "{animtree.json}"
     },
     "navigation": {
       "type": "land-small",
@@ -95,8 +98,8 @@
     "tools": [
       {
         "spec_id": "{crush_weapon.json}",
-        "aim_bone": "bone_turret",
-        "muzzle_bone": "socket_muzzle"
+        "aim_bone": "bone_pitch",
+        "muzzle_bone": "socket_blade"
       }
     ],
     "transportable": {
