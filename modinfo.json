@@ -2,14 +2,15 @@
 	"identifier": "com.pa.daedelus.dozer",
 	"display_name": "Dozer Unit Addition",
 	"description": "Adds a Bulldozer to MLA",
-	"author": "Dissonant, Taiga",
+	"author": "Team DAEDALUS, Dissonant, Taiga, Anonemous2",
 	"signature": "not yet implemented",
 	"forum": "",
 	"priority": 100,
-	"icon": "https://github.com/Anonemous2/pa.mla.unit.addon/blob/master/icon_sdl.png?raw=true",
+	"icon": "https://raw.githubusercontent.com/DAEDALUS-Modding/Dozer/master/PAEIOU_units/dozer/img.png",
 	"titansOnly": true,
 	"category": [
 		"addon",
+		"unit",
 		"titans"
 	],
 	"scenes": {
@@ -23,5 +24,5 @@
 	"context": "server",
 	"date": "2021-26-02",
 	"build": "115529",
-	"version": "0.0.2"
+	"version": "1.0.0"
 }
