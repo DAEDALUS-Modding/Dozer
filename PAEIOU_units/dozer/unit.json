@@ -110,6 +110,7 @@
       "UNITTYPE_Heavy",
       "UNITTYPE_Mobile",
       "UNITTYPE_Offense",
+      "UNITTYPE_Deconstruction",
       "UNITTYPE_Land",
       "UNITTYPE_Advanced",
       "UNITTYPE_FactoryBuild"

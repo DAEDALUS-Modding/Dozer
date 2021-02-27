@@ -35,7 +35,8 @@ def call_paeiou():
                             "com.pa.daedalus.dozer", 
                             "PAEIOU_units/", 
                             "unit_add_list.txt", 
-                            "gen")
+                            "",
+                            "dozer")
 
 def main():
     # shutil.rmtree("gen")
