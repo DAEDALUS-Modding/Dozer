@@ -2,7 +2,7 @@
 	"identifier": "com.pa.daedelus.dozer",
 	"display_name": "Dozer Unit Addition",
 	"description": "Adds a Bulldozer to MLA",
-	"author": "Team DAEDALUS, Dissonant, Taiga, Anonemous2",
+	"author": "Team DAEDALUS, Quildtide, Taiga, Anonemous2",
 	"signature": "not yet implemented",
 	"forum": "",
 	"priority": 100,
@@ -22,7 +22,7 @@
 		]
 	},
 	"context": "server",
-	"date": "2021-02-26",
-	"build": "115529",
-	"version": "1.0.0"
+	"date": "2021-06-27",
+	"build": "115847",
+	"version": "1.0.1"
 }

@@ -1,48 +1,20 @@
-import shutil
 import os
-import sys
+import paeiou
 
-# def import_paeiou():
-#     paeiou_dir_in = "PAEIOU_directory.txt"
-#     if (os.path.isfile(paeiou_dir_in)):
-#         with open(paeiou_dir_in) as infile:
-#             paeiou_path = infile.readline()
-#     else:
-#         paeiou_path = input("PAEIOU path: ")
-#         with open(paeiou_dir_in, 'w+') as outfile:
-#             outfile.write(paeiou_path)
-#     sys.path.insert(1, paeiou_path)
-
-#     import paeiou
-
-def call_paeiou():
-    paeiou_dir_in = "PAEIOU_directory.txt"
-    if (os.path.isfile(paeiou_dir_in)):
-        with open(paeiou_dir_in) as infile:
-            paeiou_path = infile.readline()
-    else:
-        paeiou_path = input("PAEIOU path: ")
-        with open(paeiou_dir_in, 'w+') as outfile:
-            outfile.write(paeiou_path)
-    sys.path.insert(1, paeiou_path)
-
-    import paeiou
-
-    paeiou.direct_function( False, 
-                            True, 
-                            0, 
-                            0, 
-                            "com.pa.daedalus.dozer", 
-                            "PAEIOU_units/", 
-                            "unit_add_list.txt", 
-                            "",
-                            "dozer")
+with open("pa_location.txt") as infile:
+        pa_path = os.path.join(infile.readline(), "media/")
 
 def main():
-    # shutil.rmtree("gen")
-    # os.mkdir("gen")
-
-    call_paeiou()
+    paeiou.paeiou( 
+        mod_id = "com.pa.daedalus.dozer", 
+        paeiou_unit_path = "PAEIOU_units/", 
+        unit_add_list = "unit_add_list.txt", 
+        output_path = "",
+        mod_prefix = "dozer",
+        server = True,
+        client = False,
+        pa_path = pa_path
+    )
 
 if __name__ == '__main__':
     main()
