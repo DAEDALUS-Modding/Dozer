@@ -36,6 +36,7 @@
         "audio_cue": "/SE/Build_Complete/veh"
       },
       "fired": {
+        "audio_cue": "/SE/Weapons/veh/tank_light_fire",
         "effect_spec": "{blank.pfx.json}"
       },
       "died": {
