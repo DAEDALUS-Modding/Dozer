@@ -5,3 +5,4 @@
 /PAEIOU_units export-ignore
 call_paeiou.py export-ignore
 unit_add_list.txt export-ignore
+CHANGELOG.md export-ignore
