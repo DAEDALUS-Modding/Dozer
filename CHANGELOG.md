@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.0
+
+- Add `UNITTYPE_Custom58` to Dozer to support Patch 116982
+
 ## v1.0.2
 
 - Add Localization string support to unit name
