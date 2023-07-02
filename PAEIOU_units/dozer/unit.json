@@ -114,6 +114,7 @@
       "UNITTYPE_Deconstruction",
       "UNITTYPE_Land",
       "UNITTYPE_Advanced",
-      "UNITTYPE_FactoryBuild"
+      "UNITTYPE_FactoryBuild",
+      "UNITTYPE_Custom58"
     ]
   }
