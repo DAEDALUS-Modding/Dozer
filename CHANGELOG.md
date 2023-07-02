@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.1
+
+- Add forum link to modinfo.json
+
 ## v1.1.0
 
 - Add `UNITTYPE_Custom58` to Dozer to support Patch 116982

@@ -4,7 +4,7 @@
 	"description": "Adds a Bulldozer to MLA",
 	"author": "Team DAEDALUS, Quildtide, Taiga, Anonemous2",
 	"signature": "not yet implemented",
-	"forum": "",
+	"forum": "https://forums.planetaryannihilation.com/threads/server-dozer-unit-addition.73545/",
 	"priority": 100,
 	"icon": "https://raw.githubusercontent.com/DAEDALUS-Modding/Dozer/master/PAEIOU_units/dozer/img.png",
 	"titansOnly": true,
@@ -22,7 +22,7 @@
 		]
 	},
 	"context": "server",
-	"date": "2023-06-12",
+	"date": "2023-07-02",
 	"build": "116982",
-	"version": "1.1.0"
+	"version": "1.1.1"
 }
