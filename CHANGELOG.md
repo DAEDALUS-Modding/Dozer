@@ -3,6 +3,7 @@
 ## v1.1.1
 
 - Add forum link to modinfo.json
+- Remove development-only files from release version of mod
 
 ## v1.1.0
 
